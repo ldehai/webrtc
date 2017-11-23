@@ -1,0 +1,401 @@
+2017-11-21 19:46:00.784949+0800 ARDApp[6737:1935577]  | JIGUANG | I - [JIGUANGService] 
+--------------------------- JPush Log ----------------------------
+--------------------JPush SDK Version:3.0.6--build:40----------
+--------------------JCore Lib Version:1.1.5--build:25----------
+-----------------AppKey:1e5e7dc2c8abdfc2b0820bcd----------------
+----------------------------------------------------------------
+2017-11-21 19:46:00.798184+0800 ARDApp[6737:1935577]  | JIGUANG | I - [JIGUANGClientController] Action - jpush setup
+2017-11-21 19:46:00.812034+0800 ARDApp[6737:1935577]  | JIGUANG | I - [JIGUANGClientController] Action - setup
+2017-11-21 19:46:01.033138+0800 ARDApp[6737:1935528] device_token is dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:02.634725+0800 ARDApp[6737:1935528] deviceToken:aaad4c41d7c77bf38404bc4f01bfc1b5616f96d84393573ba7775242acf8dc6d
+2017-11-21 19:46:03.584297+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:06.480320+0800 ARDApp[6737:1935528] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-21 19:46:06.492236+0800 ARDApp[6737:1935528] [MC] Reading from public effective user settings.
+2017-11-21 19:46:06.805438+0800 ARDApp[6737:1935575]  | JIGUANG | E - [JIGUANGAddressController] not receive sis result just now
+2017-11-21 19:46:09.007272+0800 ARDApp[6737:1935582]  | JIGUANG | E - [JIGUANGAddressController] not receive sis result just now
+2017-11-21 19:46:09.182137+0800 ARDApp[6737:1935583]  | JIGUANG | I - [JIGUANGSessionController] connecting with coreAddr 139.198.11.166,port 7002
+2017-11-21 19:46:09.459481+0800 ARDApp[6737:1935581]  | JIGUANG | I - [JIGUANGRegistration] 
+----- register info -----
+Appkey: 1e5e7dc2c8abdfc2b0820bcd
+token:aaad4c41d7c77bf38404bc4f01bfc1b5616f96d84393573ba7775242acf8dc6d  
+ advertisingIdentifier: 
+2017-11-21 19:46:10.124814+0800 ARDApp[6737:1935581]  | JIGUANG | I - [JIGUANGRegistration] 
+----- register result -----
+uid: 11899097823
+registrationID:101d85590979920f5c8 
+2017-11-21 19:46:10.315563+0800 ARDApp[6737:1935581]  | JIGUANG | I - [JIGUANGLogin] 
+----- login result -----
+uid:11899097823 
+registrationID:101d85590979920f5c8
+2017-11-21 19:46:10.495610+0800 ARDApp[6737:1935581]  | JIGUANG | I - [JIGUANGDeviceTokenReport] try to upload device token:aaad4c41d7c77bf38404bc4f01bfc1b5616f96d84393573ba7775242acf8dc6d
+2017-11-21 19:46:11.624990+0800 ARDApp[6737:1935576]  | JIGUANG | I - [JIGUANGDeviceTokenReport] upload device token success
+2017-11-21 19:46:11.805233+0800 ARDApp[6737:1935528] regist:https://47.92.38.250:8092/device
+2017-11-21 19:46:12.078187+0800 ARDApp[6737:1935528] JSON: {
+    error = "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913 already create.";
+}
+2017-11-21 19:46:12.078559+0800 ARDApp[6737:1935528] regist result:{
+    error = "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913 already create.";
+}
+2017-11-21 19:46:12.086345+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.086621+0800 ARDApp[6737:1935528] login:https://47.92.38.250:8092/login/dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.269601+0800 ARDApp[6737:1935528] JSON: {
+    token = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+}
+2017-11-21 19:46:12.269768+0800 ARDApp[6737:1935528] login result:{
+    token = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+}
+2017-11-21 19:46:12.269830+0800 ARDApp[6737:1935528] login success!
+,got token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.272891+0800 ARDApp[6737:1935528] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.272996+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.273043+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.273138+0800 ARDApp[6737:1935528] get phone bind:https://47.92.38.250:8092/bind?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&selfid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&phoneid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:12.474531+0800 ARDApp[6737:1935528] JSON: (
+)
+2017-11-21 19:46:12.474834+0800 ARDApp[6737:1935528] get bind result:(
+)
+2017-11-21 19:46:12.478379+0800 ARDApp[6737:1935528] 还没有绑定设备!
+2017-11-21 19:46:13.934654+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:14.096709+0800 ARDApp[6737:1935528] libMobileGestalt MobileGestaltSupport.m:153: pid 6737 (ARDApp) does not have sandbox access for frZQaeyWLUvLjeuEK43hmg and IS NOT appropriately entitled
+2017-11-21 19:46:14.096915+0800 ARDApp[6737:1935528] libMobileGestalt MobileGestalt.c:550: no access to InverseDeviceID (see <rdar://problem/11744455>)
+2017-11-21 19:46:14.627402+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:14.633062+0800 ARDApp[6737:1935528] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x17028bbd0 UILabel:0x123d42290.height >= 50>",
+    "<NSLayoutConstraint:0x17028bc20 UILabel:0x123d42290.height == 21>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x17028bbd0 UILabel:0x123d42290.height >= 50>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-21 19:46:14.639494+0800 ARDApp[6737:1935528] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x170280870 UILabel:0x123d42290.trailing == UIView:0x123d537b0.trailingMargin + 5>",
+    "<NSLayoutConstraint:0x170280820 UILabel:0x123d42290.centerX == UIView:0x123d537b0.centerX>",
+    "<NSLayoutConstraint:0x1702807d0 UILabel:0x123d42290.leading == UIView:0x123d537b0.leadingMargin + 5>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x170280820 UILabel:0x123d42290.centerX == UIView:0x123d537b0.centerX>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-21 19:46:25.711600+0800 ARDApp[6737:1935528] shisonglin_91513d7ba266c7ae
+2017-11-21 19:46:25.712025+0800 ARDApp[6737:1935528] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:25.712169+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:25.712355+0800 ARDApp[6737:1935528] deviceInfo:https://47.92.38.250:8092/device/shisonglin_91513d7ba266c7ae?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&selfid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:25.983680+0800 ARDApp[6737:1935528] JSON: {
+    "__v" = 0;
+    "_id" = 5972ecf99abb3116899c0be5;
+    age = "";
+    deviceid = "shisonglin_91513d7ba266c7ae";
+    gender = "";
+    name = "";
+    phone = "";
+    type = 0;
+}
+2017-11-21 19:46:25.984145+0800 ARDApp[6737:1935528] deviceInfo result:{
+    "__v" = 0;
+    "_id" = 5972ecf99abb3116899c0be5;
+    age = "";
+    deviceid = "shisonglin_91513d7ba266c7ae";
+    gender = "";
+    name = "";
+    phone = "";
+    type = 0;
+}
+2017-11-21 19:46:29.380858+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.381054+0800 ARDApp[6737:1935528] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.381126+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.381243+0800 ARDApp[6737:1935528] bind:https://47.92.38.250:8092/bind?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&selfid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.580568+0800 ARDApp[6737:1935528] JSON: {
+    admin = 0;
+    deviceid = "shisonglin_91513d7ba266c7ae";
+    devicename = "\U9633\U5149\U521a\U521a\U597d";
+    name = "\U521a\U679c\U5171\U548c\U56fd\U8fc7";
+    phone = "";
+    phoneid = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+    phonetype = ios;
+    title = "\U7238\U7238";
+}
+2017-11-21 19:46:29.580745+0800 ARDApp[6737:1935528] bind result:{
+    admin = 0;
+    deviceid = "shisonglin_91513d7ba266c7ae";
+    devicename = "\U9633\U5149\U521a\U521a\U597d";
+    name = "\U521a\U679c\U5171\U548c\U56fd\U8fc7";
+    phone = "";
+    phoneid = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+    phonetype = ios;
+    title = "\U7238\U7238";
+}
+2017-11-21 19:46:29.594073+0800 ARDApp[6737:1935528] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.594170+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.594234+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.594304+0800 ARDApp[6737:1935528] get phone bind:https://47.92.38.250:8092/bind?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&selfid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&phoneid=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.765319+0800 ARDApp[6737:1935528] JSON: (
+        {
+        "__v" = 0;
+        "_id" = 5a1412159abb3116899c0dba;
+        admin = 0;
+        deviceid = "shisonglin_91513d7ba266c7ae";
+        devicename = "\U9633\U5149\U521a\U521a\U597d";
+        name = "\U521a\U679c\U5171\U548c\U56fd\U8fc7";
+        phone = "";
+        phoneid = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+        phonetype = ios;
+        title = "\U7238\U7238";
+    }
+)
+2017-11-21 19:46:29.765573+0800 ARDApp[6737:1935528] get bind result:(
+        {
+        "__v" = 0;
+        "_id" = 5a1412159abb3116899c0dba;
+        admin = 0;
+        deviceid = "shisonglin_91513d7ba266c7ae";
+        devicename = "\U9633\U5149\U521a\U521a\U597d";
+        name = "\U521a\U679c\U5171\U548c\U56fd\U8fc7";
+        phone = "";
+        phoneid = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+        phonetype = ios;
+        title = "\U7238\U7238";
+    }
+)
+2017-11-21 19:46:29.771747+0800 ARDApp[6737:1935528] getBindServer:http://nameserver.ansiblewiring.com:8093/bindserver/juxin
+2017-11-21 19:46:29.888096+0800 ARDApp[6737:1935528] JSON: {
+    http = "http://47.92.38.250:8091";
+    https = "https://47.92.38.250:8092";
+}
+2017-11-21 19:46:29.888269+0800 ARDApp[6737:1935528] getBindServer result:{
+    http = "http://47.92.38.250:8091";
+    https = "https://47.92.38.250:8092";
+}
+2017-11-21 19:46:29.890994+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:29.891135+0800 ARDApp[6737:1935528] login:https://47.92.38.250:8092/login/dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:30.088852+0800 ARDApp[6737:1935528] JSON: {
+    token = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+}
+2017-11-21 19:46:30.089055+0800 ARDApp[6737:1935528] login result:{
+    token = dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913;
+}
+2017-11-21 19:46:30.089191+0800 ARDApp[6737:1935528] login success!
+,got token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:30.108568+0800 ARDApp[6737:1935528] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:30.108779+0800 ARDApp[6737:1935528] getSignalServer:http://nameserver.ansiblewiring.com:8093/signalserver/juxin?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&roomid=shisonglin_91513d7ba266c7ae
+2017-11-21 19:46:30.216087+0800 ARDApp[6737:1935528] JSON: {
+    wss = "wss://47.92.67.209:8099";
+}
+2017-11-21 19:46:30.216284+0800 ARDApp[6737:1935528] getSignalServer result:{
+    wss = "wss://47.92.67.209:8099";
+}
+(webrtcvoiceengine.cc:587): WebRtcVoiceEngine::WebRtcVoiceEngine
+(webrtcvoiceengine.cc:594): Supported send codecs in order of preference:
+(webrtcvoiceengine.cc:321): Adding supported codec: opus/48000/2 (111)
+(webrtcvoiceengine.cc:321): Adding supported codec: ISAC/16000/1 (103)
+(webrtcvoiceengine.cc:321): Adding supported codec: ISAC/32000/1 (104)
+(webrtcvoiceengine.cc:321): Adding supported codec: G722/8000/1 (9)
+(webrtcvoiceengine.cc:321): Adding supported codec: ILBC/8000/1 (102)
+(webrtcvoiceengine.cc:321): Adding supported codec: PCMU/8000/1 (0)
+(webrtcvoiceengine.cc:321): Adding supported codec: PCMA/8000/1 (8)
+(webrtcvoiceengine.cc:321): Adding supported codec: CN/32000/1 (106)
+(webrtcvoiceengine.cc:321): Adding supported codec: CN/16000/1 (105)
+(webrtcvoiceengine.cc:321): Adding supported codec: CN/8000/1 (13)
+(webrtcvoiceengine.cc:321): Adding supported codec: telephone-event/48000/1 (110)
+(webrtcvoiceengine.cc:321): Adding supported codec: telephone-event/32000/1 (112)
+(webrtcvoiceengine.cc:321): Adding supported codec: telephone-event/16000/1 (113)
+(webrtcvoiceengine.cc:321): Adding supported codec: telephone-event/8000/1 (126)
+(webrtcvoiceengine.cc:597): opus/48000/2 (111)
+(webrtcvoiceengine.cc:597): ISAC/16000/1 (103)
+(webrtcvoiceengine.cc:597): ISAC/32000/1 (104)
+(webrtcvoiceengine.cc:597): G722/8000/1 (9)
+(webrtcvoiceengine.cc:597): ILBC/8000/1 (102)
+(webrtcvoiceengine.cc:597): PCMU/8000/1 (0)
+(webrtcvoiceengine.cc:597): PCMA/8000/1 (8)
+(webrtcvoiceengine.cc:597): CN/32000/1 (106)
+(webrtcvoiceengine.cc:597): CN/16000/1 (105)
+(webrtcvoiceengine.cc:597): CN/8000/1 (13)
+(webrtcvoiceengine.cc:597): telephone-event/48000/1 (110)
+(webrtcvoiceengine.cc:597): telephone-event/32000/1 (112)
+(webrtcvoiceengine.cc:597): telephone-event/16000/1 (113)
+(webrtcvoiceengine.cc:597): telephone-event/8000/1 (126)
+(webrtcvoiceengine.cc:600): Supported recv codecs in order of preference:
+(webrtcvoiceengine.cc:603): opus/48000/2 (111)
+(webrtcvoiceengine.cc:603): isac/16000/1 (103)
+(webrtcvoiceengine.cc:603): isac/32000/1 (104)
+(webrtcvoiceengine.cc:603): G722/8000/1 (9)
+(webrtcvoiceengine.cc:603): iLBC/8000/1 (102)
+(webrtcvoiceengine.cc:603): PCMU/8000/1 (0)
+(webrtcvoiceengine.cc:603): PCMA/8000/1 (8)
+(webrtcvoiceengine.cc:603): cn/32000/1 (106)
+(webrtcvoiceengine.cc:603): cn/16000/1 (105)
+(webrtcvoiceengine.cc:603): cn/8000/1 (13)
+(webrtcvoiceengine.cc:603): telephone-event/48000/1 (110)
+(webrtcvoiceengine.cc:603): telephone-event/32000/1 (112)
+(webrtcvoiceengine.cc:603): telephone-event/16000/1 (113)
+(webrtcvoiceengine.cc:603): telephone-event/8000/1 (126)
+(webrtcvoiceengine.cc:611): VoiceEngine 4.1.0
+(audio_device_impl.cc:85): Create
+(audio_device_buffer.cc:62): AudioDeviceBuffer::ctor
+(audio_device_impl.cc:132): AudioDeviceModuleImpl
+(audio_device_impl.cc:140): CheckPlatform
+(audio_device_impl.cc:157): current platform is IOS
+(audio_device_impl.cc:181): CreatePlatformSpecificObjects
+(audio_device_impl.cc:1853): PlatformAudioLayer
+(audio_device_ios.mm:100): AudioDeviceIOS::ctor<NSThread: 0x1746608c0>{number = 11, name = (null)}
+(audio_device_impl.cc:301): iPhone Audio APIs will be utilized
+(audio_device_impl.cc:348): AttachAudioBuffer
+(audio_device_ios.mm:114): AudioDeviceIOS::AttachAudioBuffer
+(audio_device_impl.cc:1461): RegisterEventObserver
+(audio_device_impl.cc:1474): RegisterAudioCallback
+(audio_device_buffer.cc:77): RegisterAudioCallback
+(audio_device_impl.cc:476): Init
+(audio_device_ios.mm:121): AudioDeviceIOS::Init
+(audio_device_ios.mm:72): LogDeviceInfo
+(audio_device_ios.mm:74):  system name: iOS
+(audio_device_ios.mm:75):  system version 1(2): 10.3.3
+(audio_device_ios.mm:76):  system version 2(2): 10.3
+(audio_device_ios.mm:77):  device type: iPhone
+(audio_device_ios.mm:78):  device name: iPhone7,2
+(audio_device_ios.mm:79):  process name: ARDApp
+(audio_device_ios.mm:80):  process ID: 6737
+(audio_device_ios.mm:81):  OS version: Version 10.3.3 (Build 14G60)
+(audio_device_ios.mm:82):  processing cores: 2
+(audio_device_ios.mm:85):  low power mode: 0
+(audio_device_ios.mm:575): AudioDeviceIOS::UpdateAudioDevicebuffer
+(audio_device_buffer.cc:185): SetPlayoutSampleRate(48000)
+(audio_device_buffer.cc:209): SetPlayoutChannels(1)
+(audio_device_buffer.cc:178): SetRecordingSampleRate(48000)
+(audio_device_buffer.cc:202): SetRecordingChannels(1)
+(audio_device_impl.cc:1205): SetPlayoutDevice(0)
+(audio_device_not_implemented_ios.mm:111): virtual int32_t webrtc::AudioDeviceIOS::SetPlayoutDevice(uint16_t): Not implemented
+(audio_device_impl.cc:525): InitSpeaker
+(audio_device_impl.cc:1300): SetRecordingDevice(0)
+(audio_device_not_implemented_ios.mm:260): virtual int32_t webrtc::AudioDeviceIOS::SetRecordingDevice(uint16_t): Not implemented
+(audio_device_impl.cc:535): InitMicrophone
+(audio_device_impl.cc:1014): StereoPlayoutIsAvailable
+(audio_device_impl.cc:1024): output: 0
+(audio_device_impl.cc:1033): SetStereoPlayout(0)
+(audio_device_not_implemented_ios.mm:195): virtual int32_t webrtc::AudioDeviceIOS::SetStereoPlayout(bool): Not implemented
+(audio_device_impl.cc:1043): stereo playout is not supported
+(webrtcvoiceengine.cc:1018): webrtc: Init() failed to set mono/stereo playout mode (error=8090)
+(audio_device_impl.cc:900): StereoRecordingIsAvailable
+(audio_device_impl.cc:910): output: 0
+(audio_device_impl.cc:919): SetStereoRecording(0)
+(audio_device_not_implemented_ios.mm:180): virtual int32_t webrtc::AudioDeviceIOS::SetStereoRecording(bool): Not implemented
+(audio_device_impl.cc:928): failed to change stereo recording
+(webrtcvoiceengine.cc:1018): webrtc: Init() failed to set mono/stereo recording mode (error=8090)
+(webrtcvoiceengine.cc:1018): webrtc: TransmitMixer::SetAudioProcessingModule(audioProcessingModule=0x241f4c00)
+(webrtcvoiceengine.cc:1018): webrtc: OutputMixer::SetAudioProcessingModule(audioProcessingModule=0x241f4c00)
+(webrtcvoiceengine.cc:1018): webrtc: (audio_processing_impl.cc:631): Level controller activated: 0
+(webrtcvoiceengine.cc:1018): webrtc: (audio_processing_impl.cc:638): Highpass filter activated: 1
+(webrtcvoiceengine.cc:682): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: true, agc: true, ns: true, hf: true, swap: false, audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, typing: true, agc_delta: 0, experimental_agc: false, extended_filter_aec: false, delay_agnostic_aec: false, experimental_ns: false, intelligibility_enhancer: false, level_control: false, residual_echo_detector: true, }
+(webrtcvoiceengine.cc:699): Always disable AEC, NS and AGC on iOS. Use built-in instead.
+(audio_device_impl.cc:1769): BuiltInAECIsAvailable
+(audio_device_generic.cc:51): virtual bool webrtc::AudioDeviceGeneric::BuiltInAECIsAvailable() const: Not supported on this platform
+(audio_device_impl.cc:1772): output: 0
+(apm_helpers.cc:109): Echo control set to 0 with mode 2
+(apm_helpers.cc:119): EC metrics set to 0
+(audio_device_impl.cc:1785): BuiltInAGCIsAvailable
+(audio_device_generic.cc:61): virtual bool webrtc::AudioDeviceGeneric::BuiltInAGCIsAvailable() const: Not supported on this platform
+(audio_device_impl.cc:1788): output: 0
+(audio_device_impl.cc:1080): SetAGC(0)
+(apm_helpers.cc:70): Failed to set AGC mode in ADM: 0
+(webrtcvoiceengine.cc:801): Adjusting AGC level from default -3dB to -3dB
+(audio_device_impl.cc:1801): BuiltInNSIsAvailable
+(audio_device_generic.cc:71): virtual bool webrtc::AudioDeviceGeneric::BuiltInNSIsAvailable() const: Not supported on this platform
+(audio_device_impl.cc:1804): output: 0
+(apm_helpers.cc:144): NS set to 0
+(webrtcvoiceengine.cc:832): Stereo swapping enabled? 0
+(webrtcvoiceengine.cc:837): NetEq capacity is 50
+(webrtcvoiceengine.cc:843): NetEq fast mode? 0
+(webrtcvoiceengine.cc:850): Typing detection is enabled? 0
+(webrtcvoiceengine.cc:861): Delay agnostic aec is enabled? 0
+(webrtcvoiceengine.cc:870): Extended filter aec is enabled? 0
+(webrtcvoiceengine.cc:879): Experimental ns is enabled? 0
+(webrtcvoiceengine.cc:885): Intelligibility Enhancer is enabled? 0
+(webrtcvoiceengine.cc:895): Level control: 0
+(webrtcvoiceengine.cc:1018): webrtc: (audio_processing_impl.cc:631): Level controller activated: 0
+(webrtcvoiceengine.cc:1018): webrtc: (audio_processing_impl.cc:638): Highpass filter activated: 1
+(audio_device_impl.cc:1474): RegisterAudioCallback
+(audio_device_buffer.cc:77): RegisterAudioCallback
+(audio_device_impl.cc:1474): RegisterAudioCallback
+(audio_device_buffer.cc:77): RegisterAudioCallback
+(webrtcvideoengine2.cc:461): WebRtcVideoEngine2::WebRtcVideoEngine2()
+(webrtcvideoengine2.cc:469): WebRtcVideoEngine2::Init
+(messagequeue.cc:542): Message took 75ms to dispatch. Posted from: CreatePeerConnectionFactoryWithAudioMixer@../../webrtc/pc/peerconnectionfactory.cc:110
+2017-11-21 19:46:30.330074+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:30.330195+0800 ARDApp[6737:1935528] Client connecting.
+[000:000] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:54 -[ARDWebSocketChannel initWithURL:restURL:delegate:]): Opening WebSocket.
+2017-11-21 19:46:30.339555+0800 ARDApp[6737:1935528] connecting socket server:wss://47.92.67.209:8099
+[000:006] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:176 -[ARDWebSocketChannel sendMessage:]): C->WSS POST: {
+  "action" : "refresh"
+}
+[000:009] [1027] (RTCLogging.mm:31): (ARDUtilities.m:74 +[NSURLConnection(ARDUtilities) sendAsyncPostToURL:withData:completionHandler:]_block_invoke): Error posting data: unsupported URL
+[000:255] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:207 -[ARDWebSocketChannel webSocketDidOpen:]): WebSocket connection opened.
+2017-11-21 19:46:30.589278+0800 ARDApp[6737:1935528] ----WebSocket Opened----
+[000:255] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:299 -[ARDWebSocketChannel registerWithCollider]): Registering on WSS for rid:shisonglin_91513d7ba266c7ae cid:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:46:30.589809+0800 ARDApp[6737:1935528] send=======: {
+  "role" : "1",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "join",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+2017-11-21 19:46:30.590143+0800 ARDApp[6737:1935528] ----WebSocket Registered----
+[000:256] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "data" : {
+    "action" : "refresh"
+  },
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "trans",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:46:30.590627+0800 ARDApp[6737:1935528] send=======: {
+  "data" : {
+    "action" : "refresh"
+  },
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "trans",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:46:30.591486+0800 ARDApp[6737:1935528] C->WSS: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "get_config",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:46:30.591587+0800 ARDApp[6737:1935528] send=======: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "get_config",
+  "token" : "token",
+  "role" : "1"
+}
+[000:293] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"group_id":"shisonglin_91513d7ba266c7ae","type":"group_peers","peers":[{"id":"shisonglin_91513d7ba266c7ae","role":"0"},{"id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"1"}]}
+[000:334] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"type":"get_config","candidate":{"iceServers":[{"urls":"turn:123.57.4.136:5900","username":"hobot","credential":"da0b8fd2b798097cbd72ad3c86f9ba91"}]}}
+2017-11-21 19:46:30.670539+0800 ARDApp[6737:1935528] Client connected.
+[000:369] [52671] (webrtcvideoengine2.cc:601): Internally supported codecs: {VideoCodec[0:red], VideoCodec[0:ulpfec]}
+[000:371] [52671] (webrtcvideoengine2.cc:611): Codecs supported by the external encoder factory: {VideoCodec[0:H264], VideoCodec[0:H264]}
+[000:375] [59427] (opensslidentity.cc:41): Making key pair
+[000:386] [59427] (opensslidentity.cc:89): Returning key pair
+[000:386] [59427] (opensslidentity.cc:96): Making certificate for WebRTC
+[000:392] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x170206a00): created sender: RTCRtpSender {
+  senderId: 94aaeae4-bddc-4a65-bfdb-0da3eeaae805
+}
+[000:394] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x170206970): created sender: RTCRtpSender {
+  senderId: 806704d5-61a4-46e5-ad21-8f413e8b2c22
+}
+[000:415] [59427] (opensslidentity.cc:143): Returning certificate
+[000:851] [55627] (RTCLogging.mm:31): (RTCAVFoundationVideoCapturerInternal.mm:281 -[RTCAVFoundationVideoCapturerInternal handleCaptureSessionDidStartRunning:]): Capture session started.

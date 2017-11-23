@@ -1,0 +1,191 @@
+[030:257] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:00.591188+0800 ARDApp[6737:1935528] send=======: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+[030:319] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"device_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","type":"whoami","token":"token","role":"1"}
+[030:319] [1027] (RTCLogging.mm:31): (ARDSignalingMessage.m:72 +[ARDSignalingMessage messageFromJSONString:]): Unexpected type: whoami
+[039:851] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","sdp":{"sdp":"v=0\r\no=- 8195961527758813813 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video data\r\na=msid-semantic: WMS linux_sdk_stream\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 9 102 0 8 105 13 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:x1Aa\r\na=ice-pwd:h5IvCY/64p4FnfZCo5bNOYhP\r\na=fingerprint:sha-256 F0:E7:12:DE:96:45:9B:CD:31:32:77:96:48:93:F1:0A:48:92:2E:B3:EF:05:E6:2C:55:22:EE:63:27:1C:D3:9B\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=sendrecv\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:2776967974 cname:+wYOgab3LE4YNAWS\r\na=ssrc:2776967974 msid:linux_sdk_stream ARDAMSa0\r\na=ssrc:2776967974 mslabel:linux_sdk_stream\r\na=ssrc:2776967974 label:ARDAMSa0\r\nm=video 9 UDP/TLS/RTP/SAVPF 107 116 117 99 98\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:x1Aa\r\na=ice-pwd:h5IvCY/64p4FnfZCo5bNOYhP\r\na=fingerprint:sha-256 F0:E7:12:DE:96:45:9B:CD:31:32:77:96:48:93:F1:0A:48:92:2E:B3:EF:05:E6:2C:55:22:EE:63:27:1C:D3:9B\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=sendrecv\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:107 H264/90000\r\na=rtcp-fb:107 ccm fir\r\na=rtcp-fb:107 nack\r\na=rtcp-fb:107 nack pli\r\na=rtcp-fb:107 goog-remb\r\na=rtcp-fb:107 transport-cc\r\na=fmtp:107 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=107\r\na=rtpmap:98 rtx/90000\r\na=fmtp:98 apt=116\r\na=ssrc-group:FID 395152222 380972826\r\na=ssrc:395152222 cname:+wYOgab3LE4YNAWS\r\na=ssrc:395152222 msid:linux_sdk_stream ARDAMSv0\r\na=ssrc:395152222 mslabel:linux_sdk_stream\r\na=ssrc:395152222 label:ARDAMSv0\r\na=ssrc:380972826 cname:+wYOgab3LE4YNAWS\r\na=ssrc:380972826 msid:linux_sdk_stream ARDAMSv0\r\na=ssrc:380972826 mslabel:linux_sdk_stream\r\na=ssrc:380972826 label:ARDAMSv0\r\nm=application 9 DTLS/SCTP 5000\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:x1Aa\r\na=ice-pwd:h5IvCY/64p4FnfZCo5bNOYhP\r\na=fingerprint:sha-256 F0:E7:12:DE:96:45:9B:CD:31:32:77:96:48:93:F1:0A:48:92:2E:B3:EF:05:E6:2C:55:22:EE:63:27:1C:D3:9B\r\na=setup:actpass\r\na=mid:data\r\na=sctpmap:5000 webrtc-datachannel 1024\r\n","type":"offer"},"token":"token","type":"new_description"}
+[039:973] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:1516508954 1 udp 2122260223 192.168.0.106 51173 typ host generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:036] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:1516508954 2 udp 2122260222 192.168.0.106 52368 typ host generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:115] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:1516508954 1 udp 2122260223 192.168.0.106 53440 typ host generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"data"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:215] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:1516508954 1 udp 2122260223 192.168.0.106 43434 typ host generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:317] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:1516508954 2 udp 2122260222 192.168.0.106 56373 typ host generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:416] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:3677098414 2 udp 1686052606 112.20.82.204 52368 typ srflx raddr 192.168.0.106 rport 52368 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:520] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:3677098414 1 udp 1686052607 112.20.82.204 51173 typ srflx raddr 192.168.0.106 rport 51173 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:617] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:3677098414 1 udp 1686052607 112.20.82.204 53440 typ srflx raddr 192.168.0.106 rport 53440 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"data"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:719] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:3677098414 1 udp 1686052607 112.20.82.204 43434 typ srflx raddr 192.168.0.106 rport 43434 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:818] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:3677098414 2 udp 1686052606 112.20.82.204 56373 typ srflx raddr 192.168.0.106 rport 56373 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[040:919] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:350743530 1 tcp 1518280447 192.168.0.106 56808 typ host tcptype passive generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:021] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:350743530 2 tcp 1518280446 192.168.0.106 33122 typ host tcptype passive generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:122] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:350743530 1 tcp 1518280447 192.168.0.106 53132 typ host tcptype passive generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"data"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:222] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:350743530 1 tcp 1518280447 192.168.0.106 58730 typ host tcptype passive generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:325] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:350743530 2 tcp 1518280446 192.168.0.106 43030 typ host tcptype passive generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:431] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:802112575 1 udp 41885439 123.57.4.136 13902 typ relay raddr 112.20.82.204 rport 51173 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:530] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:802112575 2 udp 41885438 123.57.4.136 29948 typ relay raddr 112.20.82.204 rport 52368 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":0,"sdpMid":"audio"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:629] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:802112575 1 udp 41885439 123.57.4.136 35849 typ relay raddr 112.20.82.204 rport 53440 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":2,"sdpMid":"data"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:743] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:802112575 1 udp 41885439 123.57.4.136 33717 typ relay raddr 112.20.82.204 rport 43434 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[041:832] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"candidate":{"candidate":"candidate:802112575 2 udp 41885438 123.57.4.136 62027 typ relay raddr 112.20.82.204 rport 56373 generation 0 ufrag x1Aa network-id 3 network-cost 10","sdpMLineIndex":1,"sdpMid":"video"},"device_id":"shisonglin_91513d7ba266c7ae","group_id":"shisonglin_91513d7ba266c7ae","peer_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"0","token":"token","type":"new_ice_candidate"}
+[043:239] [61979] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "role" : "1",
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "close_stream",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+2017-11-21 19:47:13.573192+0800 ARDApp[6737:1935933] send=======: {
+  "role" : "1",
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "close_stream",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+[044:325] [61979] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "role" : "1",
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "close_stream",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+2017-11-21 19:47:14.659215+0800 ARDApp[6737:1935933] send=======: {
+  "role" : "1",
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "close_stream",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+[044:330] [52671] (webrtcsession.cc:844): Session:4450415823672821125 Old state:STATE_INIT New state:STATE_CLOSED
+[044:330] [52671] (RTCLogging.mm:31): (ARDAppClient.m:502 -[ARDAppClient peerConnection:didChangeIceConnectionState:]): ICE state changed: 6
+[044:331] [52671] (RTCLogging.mm:31): (ARDAppClient.m:510 -[ARDAppClient peerConnection:didChangeIceGatheringState:]): ICE gathering state changed: 2
+[044:332] [52671] (RTCLogging.mm:31): (ARDAppClient.m:471 -[ARDAppClient peerConnection:didChangeSignalingState:]): Signaling state changed: 5
+2017-11-21 19:47:14.668818+0800 ARDApp[6737:1935933] PeerConnectManager didChangeState Client disconnected.
+2017-11-21 19:47:14.669056+0800 ARDApp[6737:1935933] read token:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:47:14.669338+0800 ARDApp[6737:1935933] getSignalServer:http://nameserver.ansiblewiring.com:8093/signalserver/juxin?token=dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913&roomid=shisonglin_91513d7ba266c7ae
+2017-11-21 19:47:14.768192+0800 ARDApp[6737:1935528] JSON: {
+    wss = "wss://47.92.67.209:8099";
+}
+2017-11-21 19:47:14.768473+0800 ARDApp[6737:1935528] getSignalServer result:{
+    wss = "wss://47.92.67.209:8099";
+}
+2017-11-21 19:47:14.768874+0800 ARDApp[6737:1935528] get UUID:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:47:14.768984+0800 ARDApp[6737:1935528] Client connecting.
+[044:435] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:193 -[ARDWebSocketChannel disconnect]): C->WSS DELETE rid:shisonglin_91513d7ba266c7ae cid:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+[044:436] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:54 -[ARDWebSocketChannel initWithURL:restURL:delegate:]): Opening WebSocket.
+2017-11-21 19:47:14.771156+0800 ARDApp[6737:1935528] connecting socket server:wss://47.92.67.209:8099
+2017-11-21 19:47:14.771264+0800 ARDApp[6737:1935528] Client connected.
+[044:450] [52671] (webrtcvideoengine2.cc:601): Internally supported codecs: {VideoCodec[0:red], VideoCodec[0:ulpfec]}
+[044:452] [52671] (webrtcvideoengine2.cc:611): Codecs supported by the external encoder factory: {VideoCodec[0:H264], VideoCodec[0:H264]}
+[044:454] [59427] (opensslidentity.cc:41): Making key pair
+[044:455] [52671] (webrtcsession.cc:528): Session: 4450415823672821125 is destroyed.
+[044:458] [59427] (opensslidentity.cc:89): Returning key pair
+[044:459] [59427] (opensslidentity.cc:96): Making certificate for WebRTC
+[044:466] [59427] (opensslidentity.cc:143): Returning certificate
+[044:470] [52671] (dtmfsender.cc:230): The Dtmf provider is deleted. Clear the sending queue.
+[044:474] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x17401f600): created sender: RTCRtpSender {
+  senderId: f7a27d85-d586-4bbb-b565-bb1eda955aa2
+}
+[044:477] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x174201650): created sender: RTCRtpSender {
+  senderId: 18e7325b-d825-4b26-8602-a0ac8ea1b35c
+}
+[044:479] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:176 -[ARDWebSocketChannel sendMessage:]): C->WSS POST: {
+  "action" : "refresh"
+}
+[044:482] [1027] (RTCLogging.mm:31): (ARDUtilities.m:74 +[NSURLConnection(ARDUtilities) sendAsyncPostToURL:withData:completionHandler:]_block_invoke): Error posting data: unsupported URL
+[044:689] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:207 -[ARDWebSocketChannel webSocketDidOpen:]): WebSocket connection opened.
+2017-11-21 19:47:15.023056+0800 ARDApp[6737:1935528] ----WebSocket Opened----
+[044:689] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:299 -[ARDWebSocketChannel registerWithCollider]): Registering on WSS for rid:shisonglin_91513d7ba266c7ae cid:dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913
+2017-11-21 19:47:15.023802+0800 ARDApp[6737:1935528] send=======: {
+  "role" : "1",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "join",
+  "token" : "token",
+  "group_id" : "shisonglin_91513d7ba266c7ae"
+}
+2017-11-21 19:47:15.024069+0800 ARDApp[6737:1935528] ----WebSocket Registered----
+[044:690] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "data" : {
+    "action" : "refresh"
+  },
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "trans",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:15.025880+0800 ARDApp[6737:1935528] send=======: {
+  "data" : {
+    "action" : "refresh"
+  },
+  "peer_id" : "shisonglin_91513d7ba266c7ae",
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "trans",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:15.026181+0800 ARDApp[6737:1935528] C->WSS: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "get_config",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:15.026414+0800 ARDApp[6737:1935528] send=======: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "get_config",
+  "token" : "token",
+  "role" : "1"
+}
+[044:727] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"group_id":"shisonglin_91513d7ba266c7ae","type":"group_peers","peers":[{"id":"shisonglin_91513d7ba266c7ae","role":"0"},{"id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","role":"1"}]}
+[044:764] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"type":"get_config","candidate":{"iceServers":[{"urls":"turn:123.57.4.136:5900","username":"hobot","credential":"da0b8fd2b798097cbd72ad3c86f9ba91"}]}}
+[044:771] [52671] (webrtcvideoengine2.cc:601): Internally supported codecs: {VideoCodec[0:red], VideoCodec[0:ulpfec]}
+[044:773] [52671] (webrtcvideoengine2.cc:611): Codecs supported by the external encoder factory: {VideoCodec[0:H264], VideoCodec[0:H264]}
+[044:775] [59427] (opensslidentity.cc:41): Making key pair
+[044:776] [52671] (webrtcsession.cc:528): Session: 4139449694743479483 is destroyed.
+[044:780] [59427] (opensslidentity.cc:89): Returning key pair
+[044:780] [59427] (opensslidentity.cc:96): Making certificate for WebRTC
+[044:789] [59427] (opensslidentity.cc:143): Returning certificate
+[044:792] [52671] (dtmfsender.cc:230): The Dtmf provider is deleted. Clear the sending queue.
+[044:797] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x170205e60): created sender: RTCRtpSender {
+  senderId: 5ac5f8c7-9796-43ed-bdb7-aaf264413b7d
+}
+[044:798] [1027] (RTCLogging.mm:31): (RTCRtpSender.mm:89 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x170203ac0): created sender: RTCRtpSender {
+  senderId: f48fe55f-3b2b-4476-9e97-1e661aeec382
+}
+[060:257] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:30.591145+0800 ARDApp[6737:1935528] send=======: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+[060:300] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"device_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","type":"whoami","token":"token","role":"1"}
+[060:300] [1027] (RTCLogging.mm:31): (ARDSignalingMessage.m:72 +[ARDSignalingMessage messageFromJSONString:]): Unexpected type: whoami
+[074:690] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:170 -[ARDWebSocketChannel sendMessage:]): C->WSS: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+2017-11-21 19:47:45.024148+0800 ARDApp[6737:1935528] send=======: {
+  "device_id" : "dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913",
+  "type" : "whoami",
+  "token" : "token",
+  "role" : "1"
+}
+[074:729] [1027] (RTCLogging.mm:31): (ARDWebSocketChannel.m:217 -[ARDWebSocketChannel webSocket:didReceiveMessage:]): WSS->C: {"device_id":"dbca123050a37aa6fb2c18b8721c5413d4d3bd0e6c81a0b0b56132ef89dee913","type":"whoami","token":"token","role":"1"}
+[074:729] [1027] (RTCLogging.mm:31): (ARDSignalingMessage.m:72 +[ARDSignalingMessage messageFromJSONString:]): Unexpected type: whoami
